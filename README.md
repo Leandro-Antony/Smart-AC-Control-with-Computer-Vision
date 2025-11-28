@@ -24,3 +24,34 @@ O objetivo é automatizar o uso do ar-condicionado a partir da **temperatura do 
 ## Autores
 - Leandro Antony Batista Lemos
 - Davi Felipe de Assis Borges
+
+---
+
+#Intelligent Air-Conditioning System with Computer Vision
+This repository contains the development of an intelligent air-conditioning system based on ESP32, ESP32-CAM, temperature sensors, and a computer vision model trained on Edge Impulse.
+The goal is to automate air-conditioner usage based on ambient temperature and people detection, contributing to energy efficiency.
+
+--- 
+
+##Main Features
+-Continuous ambient temperature monitoring (DHT11)
+-Real-time presence detection using ESP32-CAM
+-Serial communication between ESP32 ↔ ESP32-CAM
+-Automatic air-conditioner control via IR emitter
+-Full integration between sensors, embedded AI, and climate-control logic
+
+---
+
+##Technologies Used
+-ESP32 (main controller)
+-ESP32-CAM (computer vision)
+-DHT11 sensor
+-Edge Impulse (FOMO MobileNetV2 0.35 model training)
+-IR modules (KY-022 and KY-005)
+-Arduino Framework
+
+---
+
+##Authors
+Leandro Antony Batista Lemos
+Davi Felipe de Assis Borges
